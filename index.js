@@ -9,7 +9,7 @@ bot.on("message", async message => {
   if(message.author.bot) return;
   if(message.channel.type !== 'text'){
     let active = await db.fetch(`support_${message.author.id}`);
-    let guild = bot.guilds.get('369668806018072576');
+    let guild = bot.guilds.get('543249865677864971;
     let channel, found = true;
     try{
       if(active) bot.channels.get(active.channelID).guild;
@@ -19,7 +19,7 @@ bot.on("message", async message => {
     if(!active || !found){
       active = {};
       channel = await guild.channels.create(`${message.author.username}-${message.author.discriminator}`, {
-        parent: '467899224927895553',
+        parent: '546245995927830528',
         topic: `<>complete to close the ticket | Support for ${message.author.tag} | ID: ${message.author.id}`
       });
       let author = message.author;
