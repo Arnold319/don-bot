@@ -1,15 +1,27 @@
 {
-  "name": "ScheduleTraining",
-  "description": "ScheduleTraining {DEV}",
-  "version": "0.0.1",
-  "main": "index.js",
-  "scripts": {
-    "start": "node index.js"
+  "name": "24-7-dos-support",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "engines": {
+    "node": "9.10.1"
   },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DDAHACKER/24-7-dos-support.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DDAHACKER/24-7-dos-support/issues"
+  },
+  "homepage": "https://github.com/DDAHACKER/24-7-dos-support#readme",
   "dependencies": {
-    "discord.js": "^11.3.2",
-    "enmap": "^2.6.3",
-    "node-opus": "0.3.0",
-    "opusscript": "0.0.6"
+    "discord.js": "github:hydrabolt/discord.js",
+    "quick.db": "^6.3.2"
   }
 }
