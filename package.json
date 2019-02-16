@@ -1,20 +1,15 @@
 {
-  "name": "don-bot",
-  "version": "1.0.0",
-  "description": "Private bot for DonDoDis",
+  "name": "ScheduleTraining",
+  "description": "ScheduleTraining {DEV}",
+  "version": "0.0.1",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js"
   },
-  "author": "Zendovo#4334",
-  "license": "ISC",
   "dependencies": {
     "discord.js": "^11.3.2",
-    "quick.db": "*",
-    "mysql": "*",
-    "fs": "0.0.1-security",
-    "npm": "^5.7.1",
-    "randomstring": "^1.1.5",
-    "nodemon": "^1.17.2"
+    "enmap": "^2.6.3",
+    "node-opus": "0.3.0",
+    "opusscript": "0.0.6"
   }
 }
