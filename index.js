@@ -17,9 +17,9 @@ bot.login(process.env.token)
 
 // When Bot has logged in do this
 bot.on("ready", async() =>{
-    bot.user.setActivity("Message to Schedule Training")
+    bot.user.setActivity("Message me to help")
 
-  const LogChannelID = "469602420092305420"
+  const LogChannelID = "543249865677864971"
 
   var currentDate = new Date().toLocaleDateString();
   var currentTime = new Date().toLocaleTimeString();
@@ -78,14 +78,13 @@ bot.on("message", async message =>{
       console.log(`No Active Found (LN: 116) Creating active`);
 
       active = {};
-
-      let theTeam = guild.roles.find('name', 'TheTeam');
+      let theTeam = guild.roles.find('name', 'TRIVIA FRIENDS');
       let FieldTrainingOfficer = guild.roles.find('name', 'Field Training Officer');
       let Everyone = guild.roles.find("name", "@everyone");
       //Create Channel Stuff
       channel = await guild.createChannel(`${message.author.username} - ${message.author.discriminator}`);
 
-      await channel.setParent('469687457672200193'); // CHANGE ME DEPENDING ON THE SERVER
+      await channel.setParent('543249865677864971'); // CHANGE ME DEPENDING ON THE SERVER
       console.log(channel.parentID);
       await channel.setTopic(`ong!complete to close the ticket | Support for ${message.author.tag} | ID: ${message.author.id}`);
       await channel.overwritePermissions(theTeam, {'READ_MESSAGES': true, 'SEND_MESSAGES': false,'MANAGE_MESSAGES': false,})
