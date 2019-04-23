@@ -1,7 +1,7 @@
 const Discord = require("discord.js");
 const fs = require("fs");
 const util = require('util');
-npm install enmap
+npm enmap
 
 const Enmap = require('enmap')
 
