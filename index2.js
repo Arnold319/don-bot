@@ -1,6 +1,7 @@
 const Discord = require("discord.js");
 const fs = require("fs");
 const util = require('util');
+npm i enmap
 
 const Enmap = require('enmap')
 
