@@ -2,7 +2,6 @@ const Discord = require("discord.js");
 const fs = require("fs");
 const util = require('util');
 
-const Enmap = require('enmap');
 
 
 //Create Bot
@@ -19,7 +18,7 @@ bot.login(process.env.token)
 bot.on("ready", async() =>{
     bot.user.setActivity("Message me to help")
 
-  const LogChannelID = "543249865677864971"
+  const LogChannelID = "569907533372981258"
 
   var currentDate = new Date().toLocaleDateString();
   var currentTime = new Date().toLocaleTimeString();
