@@ -19,7 +19,7 @@ bot.on("message", async message => {
     if(!active || !found){
       active = {};
       channel = await guild.channels.create(`${message.author.username}-${message.author.discriminator}`, {
-        parent: '546245995927830528',
+        parent: '569907317223456770',
         topic: `<>complete to close the ticket | Support for ${message.author.tag} | ID: ${message.author.id}`
       });
       let author = message.author;
