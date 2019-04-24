@@ -1,4 +1,3 @@
-npm i enmap@latest
 const Discord = require("discord.js");
 const fs = require("fs");
 const util = require('util');
