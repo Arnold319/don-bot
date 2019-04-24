@@ -23,6 +23,6 @@
   "dependencies": {
     "discord.js": "github:hydrabolt/discord.js",
     "quick.db": "^6.3.2"
-    npm i enmap@latest
+    "enmap"
   }
 }
